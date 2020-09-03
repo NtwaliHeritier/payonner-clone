@@ -8,10 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    object-fit: cover;
-}
-
 $color-gray: #98a3aa;
 $color: #ff4800;
 
@@ -104,18 +100,87 @@ nav {
   button {
       margin-top: 150px;  
       background-color: #faad00;
+      transition: all .5s linear;
       &:hover {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
         box-shadow: -1px 2px 22px -7px rgba(255,0,0,1);
       }
   }
 }
 
 .platform {
-    height: 100vh;
+    height: 130vh;
     background: url(../images/all-in-one-solutions-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     .h2 {
         padding-top: 8%;
     }
-    
+    .content {
+        width: 90%;
+    }
+    .my-cal {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.payments {
+    height: 90vh;
+    h2 {
+        margin-top: 5%;
+        width: 60%;
+        line-height: 1.6em;
+        margin-top: 5%;
+    }
+
+    .carousel {
+        width: 75%;
+        margin: 5% auto;
+        .texts {
+            top: 2%;
+            left: 40%;
+            width: 60%;
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    button {
+        background-color: #0042a9;
+        margin-top: 60px;
+        width: 12%;
+        font-size: 20px;
+    }
+}
+
+.carousels {
+    .carousel-container {
+        height: 100%;
+        width: 100vw;
+        background-color: blue;
+        .carousel {
+            height: 100%;
+            width: 100%;
+            background-color: yellowgreen;
+            img {
+                height: 670px;
+                width: 100vw;
+            }
+        }
+    }
+}
+
+.forbes {
+    background-image: url(../images/bg_city_landscape.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    p {
+        padding-top: 10%;
+        font-size: 20px;
+    }
 }
