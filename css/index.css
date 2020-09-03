@@ -105,6 +105,9 @@ nav .button-div button {
 .platform .h2 {
   padding-top: 8%;
 }
+.platform .platform-anchor {
+  bottom: 10%;
+}
 
 .payments {
   height: 90vh;
@@ -144,6 +147,18 @@ nav .button-div button {
   height: 670px;
   width: 100%;
 }
+.carousels .carousels-p {
+  top: 20%;
+  left: 20%;
+}
+.carousels .carousels-p .watch {
+  border: 1px solid white;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  width: 20%;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 .forbes {
   background-image: url(../images/bg_city_landscape.jpg);
@@ -174,6 +189,9 @@ nav .button-div button {
   margin-right: 12px;
 }
 
+.bottom-cards {
+  height: 100vh;
+}
 .bottom-cards h3 {
   margin-top: 10%;
   margin-bottom: 5%;
@@ -205,4 +223,39 @@ nav .button-div button {
 }
 .ready button {
   background-color: #ff4800;
+}
+
+footer {
+  background-color: #252525;
+  height: 60vh;
+  padding: 2%;
+}
+footer li {
+  padding-top: 5%;
+}
+footer .last a {
+  border-radius: 50%;
+  background-color: white;
+  padding: 2%;
+  margin: 1%;
+}
+footer .last a i {
+  color: black;
+}
+footer a {
+  color: white;
+}
+footer .container-row {
+  width: 90%;
+  margin: auto;
+}
+footer .container-row:nth-child(1) {
+  font-size: 17px;
+}
+footer .container-row:nth-child(2) {
+  font-size: 13px;
+}
+footer button {
+  background-color: black;
+  font-size: 13px;
 }

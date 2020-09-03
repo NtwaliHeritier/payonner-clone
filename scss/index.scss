@@ -118,6 +118,10 @@ nav {
     .h2 {
         padding-top: 8%;
     }
+
+    .platform-anchor {
+        bottom: 10%;
+    }
 }
 
 .payments {
@@ -161,6 +165,18 @@ nav {
             }
         }
     }
+.carousels-p {
+    top: 20%;
+    left: 20%;
+    .watch {
+        border: 1px solid white;
+        border-top-right-radius: 100%;
+        border-bottom-right-radius: 100%;
+        width: 20%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
 }
 
 .forbes {
@@ -196,6 +212,7 @@ nav {
 }
 
 .bottom-cards {
+    height: 100vh;
     h3 {
         margin-top: 10%;
         margin-bottom: 5%;
@@ -230,5 +247,44 @@ nav {
     }
     button {
         @include button;
+    }
+}
+
+footer {
+    background-color: #252525;
+    height: 60vh;
+    padding: 2%;
+    li {
+        padding-top: 5%;
+    }
+
+    .last a {
+        border-radius: 50%;
+        background-color: white;
+        padding: 2%;
+        margin: 1%;
+        i {
+            color: black;
+        }
+    }
+
+    a {
+        color: white;
+    }
+    
+    .container-row {
+        width: 90%;
+        margin: auto;
+        &:nth-child(1) {
+            font-size: 17px;
+        }
+        &:nth-child(2) {
+            font-size: 13px;
+        }
+    } 
+
+    button {
+        background-color: black;
+        font-size: 13px;
     }
 }
