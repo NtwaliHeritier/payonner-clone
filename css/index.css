@@ -105,13 +105,6 @@ nav .button-div button {
 .platform .h2 {
   padding-top: 8%;
 }
-.platform .content {
-  width: 90%;
-}
-.platform .my-cal {
-  width: 50%;
-  height: 100%;
-}
 
 .payments {
   height: 90vh;
@@ -143,17 +136,13 @@ nav .button-div button {
 
 .carousels .carousel-container {
   height: 100%;
-  width: 100vw;
-  background-color: blue;
 }
 .carousels .carousel-container .carousel {
   height: 100%;
-  width: 100%;
-  background-color: yellowgreen;
 }
 .carousels .carousel-container .carousel img {
   height: 670px;
-  width: 100vw;
+  width: 100%;
 }
 
 .forbes {
@@ -166,4 +155,54 @@ nav .button-div button {
 .forbes p {
   padding-top: 10%;
   font-size: 20px;
+}
+
+.advert {
+  background-color: #f7fafc;
+  height: 100vh;
+}
+.advert .row {
+  padding-top: 5%;
+}
+.advert .row .buttons button {
+  background-color: black;
+}
+.advert .row .buttons button .strong {
+  font-size: 25px;
+}
+.advert .row .buttons .btn1 {
+  margin-right: 12px;
+}
+
+.bottom-cards h3 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.bottom-cards .card {
+  height: 60vh;
+}
+.bottom-cards .card-text {
+  color: #98a3aa;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+.bottom-cards .download {
+  color: #ff4800;
+  bottom: 1%;
+  left: 25%;
+}
+
+.ready {
+  height: 60vh;
+  background: linear-gradient(180deg, rgba(61, 61, 61, 0.8) 0%, #262626 96%), url(../images/expand-marketplaces.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ready h3 {
+  padding: 90px;
+}
+.ready button {
+  background-color: #ff4800;
 }

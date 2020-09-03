@@ -10,6 +10,7 @@ body {
 
 $color-gray: #98a3aa;
 $color: #ff4800;
+$background-color: #f7fafc;
 
 @mixin button {
     background-color: $color;
@@ -73,7 +74,7 @@ nav {
 
 .partners {
     height: 130vh;
-    background-color: #f7fafc;
+    background-color: $background-color;
     .partners-p {
         color: $color-gray;
         padding-top: 7%;
@@ -117,13 +118,6 @@ nav {
     .h2 {
         padding-top: 8%;
     }
-    .content {
-        width: 90%;
-    }
-    .my-cal {
-        width: 50%;
-        height: 100%;
-    }
 }
 
 .payments {
@@ -159,15 +153,11 @@ nav {
 .carousels {
     .carousel-container {
         height: 100%;
-        width: 100vw;
-        background-color: blue;
         .carousel {
             height: 100%;
-            width: 100%;
-            background-color: yellowgreen;
             img {
                 height: 670px;
-                width: 100vw;
+                width: 100%;
             }
         }
     }
@@ -182,5 +172,63 @@ nav {
     p {
         padding-top: 10%;
         font-size: 20px;
+    }
+}
+
+.advert {
+    background-color: $background-color;
+    height: 100vh;
+    .row {
+        padding-top: 5%;
+        .buttons {
+            button {
+                background-color: black;
+                .strong {
+                    font-size: 25px;
+                }
+            }
+
+            .btn1 {
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+.bottom-cards {
+    h3 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .card {
+        height: 60vh;
+    }
+    
+    .card-text {
+        color: $color-gray;
+        font-size: 18px;
+        line-height: 1.6em;
+    }
+    
+    .download {
+        color: $color;
+        bottom: 1%;
+        left: 25%;
+    }
+}
+
+.ready {
+    height: 60vh;
+    background: linear-gradient(180deg, rgba(61,61,61, .8) 0%, rgba(38,38,38, 1) 96%), url(../images/expand-marketplaces.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    h3 {
+        padding: 90px;
+    }
+    button {
+        @include button;
     }
 }
