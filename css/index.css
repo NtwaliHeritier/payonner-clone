@@ -35,7 +35,7 @@ nav .button-div button {
 }
 
 .my-carousel img {
-  height: 100vh;
+  min-height: 100vh;
 }
 .my-carousel .carousel-content {
   bottom: 20%;
@@ -52,7 +52,7 @@ nav .button-div button {
 
 .blue-content {
   background-color: #2f5796;
-  height: 30vh;
+  min-height: 30vh;
   font-size: 20px;
 }
 .blue-content p {
@@ -60,7 +60,7 @@ nav .button-div button {
 }
 
 .partners {
-  height: 130vh;
+  min-height: 130vh;
   background-color: #f7fafc;
 }
 .partners .partners-p {
@@ -96,7 +96,7 @@ nav .button-div button {
 }
 
 .platform {
-  height: 130vh;
+  min-height: 130vh;
   background: url(../images/all-in-one-solutions-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ nav .button-div button {
 }
 
 .payments {
-  height: 90vh;
+  min-height: 90vh;
 }
 .payments h2 {
   margin-top: 5%;
@@ -162,7 +162,7 @@ nav .button-div button {
 
 .forbes {
   background-image: url(../images/bg_city_landscape.jpg);
-  height: 70vh;
+  min-height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -174,7 +174,7 @@ nav .button-div button {
 
 .advert {
   background-color: #f7fafc;
-  height: 100vh;
+  min-height: 100vh;
 }
 .advert .row {
   padding-top: 5%;
@@ -190,14 +190,14 @@ nav .button-div button {
 }
 
 .bottom-cards {
-  height: 100vh;
+  min-height: 100vh;
 }
 .bottom-cards h3 {
   margin-top: 10%;
   margin-bottom: 5%;
 }
 .bottom-cards .card {
-  height: 60vh;
+  min-height: 60vh;
 }
 .bottom-cards .card-text {
   color: #98a3aa;
@@ -211,7 +211,7 @@ nav .button-div button {
 }
 
 .ready {
-  height: 60vh;
+  min-height: 60vh;
   background: linear-gradient(180deg, rgba(61, 61, 61, 0.8) 0%, #262626 96%), url(../images/expand-marketplaces.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +227,7 @@ nav .button-div button {
 
 footer {
   background-color: #252525;
-  height: 60vh;
+  min-height: 60vh;
   padding: 2%;
 }
 footer li {

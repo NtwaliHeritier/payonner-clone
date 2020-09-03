@@ -45,7 +45,7 @@ nav {
 
 .my-carousel {
     img {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .carousel-content {
@@ -65,7 +65,7 @@ nav {
 
 .blue-content {
     background-color: #2f5796;
-    height: 30vh;
+    min-height: 30vh;
     font-size: 20px;
     p {
         line-height: 1.6em;
@@ -73,7 +73,7 @@ nav {
 }
 
 .partners {
-    height: 130vh;
+    min-height: 130vh;
     background-color: $background-color;
     .partners-p {
         color: $color-gray;
@@ -110,7 +110,7 @@ nav {
 }
 
 .platform {
-    height: 130vh;
+    min-height: 130vh;
     background: url(../images/all-in-one-solutions-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ nav {
 }
 
 .payments {
-    height: 90vh;
+    min-height: 90vh;
     h2 {
         margin-top: 5%;
         width: 60%;
@@ -181,7 +181,7 @@ nav {
 
 .forbes {
     background-image: url(../images/bg_city_landscape.jpg);
-    height: 70vh;
+    min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -193,7 +193,7 @@ nav {
 
 .advert {
     background-color: $background-color;
-    height: 100vh;
+    min-height: 100vh;
     .row {
         padding-top: 5%;
         .buttons {
@@ -212,14 +212,14 @@ nav {
 }
 
 .bottom-cards {
-    height: 100vh;
+    min-height: 100vh;
     h3 {
         margin-top: 10%;
         margin-bottom: 5%;
     }
 
     .card {
-        height: 60vh;
+        min-height: 60vh;
     }
     
     .card-text {
@@ -236,7 +236,7 @@ nav {
 }
 
 .ready {
-    height: 60vh;
+    min-height: 60vh;
     background: linear-gradient(180deg, rgba(61,61,61, .8) 0%, rgba(38,38,38, 1) 96%), url(../images/expand-marketplaces.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -252,7 +252,7 @@ nav {
 
 footer {
     background-color: #252525;
-    height: 60vh;
+    min-height: 60vh;
     padding: 2%;
     li {
         padding-top: 5%;
